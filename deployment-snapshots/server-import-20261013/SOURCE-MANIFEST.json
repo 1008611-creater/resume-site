@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-13",
+  "scope": "Sanitized source snapshots recovered from running deployments; production untouched; excluded environment credentials, user data, runtime storage, generated/build output and unreviewed media.",
+  "repository": "1008611-creater/resume-site",
+  "variants": [
+    {
+      "name": "published-static",
+      "source": "resume-static",
+      "server": "kaogong",
+      "sourcePath": "/var/www/resume.cauai.fun",
+      "excludedSensitiveAndRuntimeFiles": true,
+      "files": [
+        {
+          "path": "assets/content-refinement.css",
+          "sha256": "5c12883790c6e4292495c17ef0bfa88cccdf2314c352bbe122121b298d2c0ccb"
+        },
+        {
+          "path": "assets/index-B_TESwl6.css",
+          "sha256": "adc30f936d5dd640e4f8eda5649f4d966e9d06f290f7a53cb35b3dfeadd76b6c"
+        },
+        {
+          "path": "assets/index-content-b311c97f2f23.js",
+          "sha256": "b311c97f2f23563a1200d34946fe0433afa6f53b0ad683c23fb53cd5e10319d7"
+        },
+        {
+          "path": "assets/index-DLjLKNAm.js",
+          "sha256": "b1cfe7ea2586c86820b632425f3453d2a785a46cc9e44e16c532e9f21c2e9eb4"
+        },
+        {
+          "path": "assets/index-loading-36586d19f367.js",
+          "sha256": "36586d19f367c09d5ebad915bbdb758c7b47b575f55e6087212c6dea612863db"
+        },
+        {
+          "path": "assets/markdown-Dcbhb9XN.js",
+          "sha256": "66c9f381c3c10fd526f1c59a73adbf54dcedb06212efc55a92a41db4160eaa2a"
+        },
+        {
+          "path": "assets/motion-BpqT4J3l.js",
+          "sha256": "fe4e262f7061292454dee1d1ee3ddb10afad39242fa4998365dbc2772db2b30e"
+        },
+        {
+          "path": "assets/react-CXgL5t_Y.js",
+          "sha256": "3661a381907e00543200eb9c3a601f9876585fb4777b386abac29fcfe88d72b2"
+        },
+        {
+          "path": "assets/three-C4vp5bL2.js",
+          "sha256": "9f69f16c8f8de5aae3efeef5945c252ed586341bcc42dcaee2a478e693cf485a"
+        },
+        {
+          "path": "assets/Works-content-cba00d17911e.js",
+          "sha256": "cba00d17911e97a59264187232ede457a7d87a2aff953772ede590da2b291e81"
+        },
+        {
+          "path": "assets/Works-DXzzBVpu.js",
+          "sha256": "9713ce636364369d48f0e573ee907ac22f2e09ddea70b9399ba16bb79eb639e9"
+        },
+        {
+          "path": "favicon.svg",
+          "sha256": "03176331cdc27ecdb46c78c2ebf4a7e76faf108dbad508222b71f8670f969d89"
+        },
+        {
+          "path": "fonts/cormorant-upright-400.woff2",
+          "sha256": "80270ca27db456d6dbb3f4227cc38a021734da9c286ad5d2e982d5eeb410be43"
+        },
+        {
+          "path": "fonts/cormorant-upright-500.woff2",
+          "sha256": "a1b5c01d0846c7764e918de83e8e282b0d398c3a0c6616fc412bde1b65729fd2"
+        },
+        {
+          "path": "fonts/cormorant-upright-600.woff2",
+          "sha256": "c4610fd3f3b2eca8f2d6b63597c9fc2279ff8b3ed2e6d8487f4047fc8951df85"
+        },
+        {
+          "path": "fonts/LICENSE-FONTS.md",
+          "sha256": "60f1cbcfef395b62281dc29ede17bde288e5a9324fc154e432f8475abb5fe3ec"
+        },
+        {
+          "path": "fonts/mansalva-400.woff2",
+          "sha256": "a820ef1f04311e07e966acda399e66c9d186a74c85d4cc24d0d8d342c7338765"
+        },
+        {
+          "path": "index.html",
+          "sha256": "f7291c3906bcf1627db9dcb53f23fd639115b0aab6e9f95adac758b18a6cb3c1"
+        },
+        {
+          "path": "portfolio/assets/bricolage-500-Cre6nC2_.woff2",
+          "sha256": "a79fdb52d4a5c76552452f69202add96e287401fff03d3e8c0e38b4dcb5a99cd"
+        },
+        {
+          "path": "portfolio/assets/content-refinement.css",
+          "sha256": "0dcee0b7854e421505123faf8b2e9bafc67f586ac74e7886e3aa10775b00a74c"
+        },
+        {
+          "path": "portfolio/assets/index-BrO2n9Vg.css",
+          "sha256": "43cc2d33e6c9faac8e5a26349ac2e3b00a171d92c7bc9dbf56693fa4ec1c85ab"
+        },
+        {
+          "path": "portfolio/assets/index-content-39fd80b972a2.js",
+          "sha256": "39fd80b972a21b1a271852fee483e095f5c660e0ab19dcb604fbd6fa9cc3f009"
+        },
+        {
+          "path": "portfolio/assets/index-CY3o3Dpj.js",
+          "sha256": "f2fc0ea420501be2b1c7768eab3367acddfd51f06ed25d2bf69ad1dd536a796e"
+        },
+        {
+          "path": "portfolio/favicon.svg",
+          "sha256": "e36841452da4d7dfbeda552348d4c4525408fb60ec97202642aade4ebcdac3cf"
+        },
+        {
+          "path": "portfolio/index.html",
+          "sha256": "0eda7055c67019ac11ca1938b21ca94d74a86c33acf60a4e829313fca6dd3356"
+        }
+      ]
+    }
+  ]
+}
